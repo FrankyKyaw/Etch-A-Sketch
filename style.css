@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0;
+}
+
+
+.board{
+    width: 420px;
+    height: 420px;
+    display: grid;
+    color: black;
+    border: 1px solid black;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.title{
+    font-size: 48px;
+    margin-top: 10px;
+}
+
+.buttons{
+    display: flex;
+    gap: 1rem;
+}
+
+.setting{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.sizeValue{
+    margin-left: 40px;
+}
